@@ -1,0 +1,234 @@
+if game.PlaceId == 286090429 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lua Scriptz", "Synapse")
+
+    --SUPPORTEDGAMES
+    local Supported = Window:NewTab("Supported Games")
+    local SupportedSection = Supported:NewSection("Supported Games")
+    SupportedSection:NewButton("Arsenal", "Arsenal is one of the supported games", function()
+        print("Arsenal")
+    end)
+    SupportedSection:NewButton("Dahood", "Dahood is one of the supported games", function()
+        print("Dahood")
+    end)
+    SupportedSection:NewButton("Prison Life", "Prison life is one of the supported games", function()
+        print("Prison Life")
+    end)
+    SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
+        print("Admin House")
+    end)
+
+    --UNIVERSAL
+    local Universal = Window:NewTab("Universal")
+    local UniversalSection = Universal:NewSection("Universal Scripts")
+    UniversalSection:NewButton("IY", "Loads infinite yield", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+
+    --ACTUAL SCRIPT
+    local Arsenal = Window:NewTab("Arsenal")
+    local ArsenalSection = Arsenal:NewSection("Arsenal")
+    ArsenalSection:NewButton("Owl Hub", "Owl hub was made by chrome scripts its an ok hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+    end)
+    ArsenalSection:NewButton("Dark Hub", "Dark hub was made by the best lua scripters ever", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/yCrBkPaY', true))()
+    end)
+    ArsenalSection:NewButton("Bolts Hub", "A really good hub, I use it", function()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/fusiongreg/BoltsHubV3/main/BoltsHubv3"),true))()
+    end)
+
+    --DAHOOD
+elseif game.PlaceId == 2788229376 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lua Scriptz", "Synapse")
+
+    --SUPPORTEDGAMES
+    local Supported = Window:NewTab("Supported Games")
+    local SupportedSection = Supported:NewSection("Supported Games")
+    SupportedSection:NewButton("Arsenal", "Arsenal is one of the supported games", function()
+        print("Arsenal")
+    end)
+    SupportedSection:NewButton("Dahood", "Dahood is one of the supported games", function()
+        print("Dahood")
+    end)
+    SupportedSection:NewButton("Prison Life", "Prison life is one of the supported games", function()
+        print("Prison Life")
+    end)
+    SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
+        print("Admin House")
+    end)
+
+    --UNIVERSAL
+    local Universal = Window:NewTab("Universal")
+    local UniversalSection = Universal:NewSection("Universal Scripts")
+    UniversalSection:NewButton("IY", "Loads infinite yield", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    UniversalSection:NewButton("Homewbrew", "Loads homebrew admin, Prefix is .", function()
+        _G.CustomUI = false
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+    end)
+
+    --ACTUAL SCRIPT
+    local Dahood = Window:NewTab("DaHood")
+    local DahoodSection = Dahood:NewSection("Dahood")
+    DahoodSection:NewButton("Zoridion Hub", "A really good hub, the key is zordionrevive", function()
+        repeat
+            wait()
+            until game:IsLoaded()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/zordion/main/script.lua"))()
+    end)
+    DahoodSection:NewButton("Valiant Hub", "A really good hub, Give it a try", function()
+        pcall(function()
+            if not game:IsLoaded() then
+            repeat
+            wait()
+            until game:IsLoaded()
+        end
+        if game:IsLoaded() then
+            for Valiant=1,1 do
+            wait()
+            loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\86\97\110\105\115\50\53\50\47\118\97\108\105\97\110\116\47\109\97\105\110\47\46\103\105\116\105\103\110\111\114\101\39\41\44\32\116\114\117\101\41\41\40\41\10")()
+            end
+        end
+        end)
+    end)
+    DahoodSection:NewButton("Swagmode", "A really good hub, cool script join there discord", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+    end)
+    DahoodSection:NewButton("RayModeX", "A really good hub, have fun!", function()
+        loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+    end)
+
+    --PRISON LIFE
+elseif game.PlaceId == 155615604 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lua Scriptz", "Synapse")
+
+    --SUPPORTED GAMES
+    local Supported = Window:NewTab("Supported Games")
+    local SupportedSection = Supported:NewSection("Supported Games")
+    SupportedSection:NewButton("Arsenal", "Arsenal is one of the supported games", function()
+        print("Arsenal")
+    end)
+    SupportedSection:NewButton("Dahood", "Dahood is one of the supported games", function()
+        print("Dahood")
+    end)
+    SupportedSection:NewButton("Prison Life", "Prison life is one of the supported games", function()
+        print("Prison Life")
+    end)
+    SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
+        print("Admin House")
+    end)
+
+    --UNIVERSAL
+    local Universal = Window:NewTab("Universal")
+    local UniversalSection = Universal:NewSection("Universal Scripts")
+    UniversalSection:NewButton("IY", "Loads infinite yield", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    UniversalSection:NewButton("Homewbrew", "Loads homebrew admin, Prefix is .", function()
+        _G.CustomUI = false
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+    end)
+
+    --ACTUAL SCRIPT
+    local Prison = Window:NewTab("Prison Life")
+    local PrisonSection = Prison:NewSection("Prison Life")
+    PrisonSection:NewButton("Prevail X", "Prevail is one of the best prison life script's out there", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+    end)
+    PrisonSection:NewButton("Prison Breaker v1.5", "Prison breaker is an... ok script", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/pPW4pg2i", true))()
+    end)
+    PrisonSection:NewButton("PrisonHax", "Prisonhax is a good script, Give it a try", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Z9045C7F", true))()
+    end)
+
+    --KOHLS ADMIN HOUSE
+elseif game.PlaceId == 112420803 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lua Scriptz", "Synapse")
+
+    --SUPPORTEDGAMES
+    local Supported = Window:NewTab("Supported Games")
+    local SupportedSection = Supported:NewSection("Supported Games")
+    SupportedSection:NewButton("Arsenal", "Arsenal is one of the supported games", function()
+        print("Arsenal")
+    end)
+    SupportedSection:NewButton("Dahood", "Dahood is one of the supported games", function()
+        print("Dahood")
+    end)
+    SupportedSection:NewButton("Prison Life", "Prison life is one of the supported games", function()
+        print("Prison Life")
+    end)
+    SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
+        print("Admin House")
+    end)
+
+    --UNIVERSAL
+    local Universal = Window:NewTab("Universal")
+    local UniversalSection = Universal:NewSection("Universal Scripts")
+    UniversalSection:NewButton("IY", "Loads infinite yield", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    UniversalSection:NewButton("Homewbrew", "Loads homebrew admin, Prefix is .", function()
+        _G.CustomUI = false
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+    end)
+
+    --ACTUAL SCRIPT
+    local Admin = Window:NewTab("Kohls Admin House")
+    local AdminSection = Admin:NewSection("Admin House")
+    AdminSection:NewButton("KohlsSploit", "Kohlssploit is a very good script, Try it", function()
+        prefix = ":"
+
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/MaybeHumanBut/Pog/main/Epicly%20Interesting'))()
+    end)
+    AdminSection:NewButton("Shortcut", "Shortcut is a very good script, U must try it", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Notarareusername/pog/main/Shortcut'))()
+    end)
+    AdminSection:NewButton("Adminjoy", "Adminjoy is a good script, But it could get u banned", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/FGtgjKwD", true))()
+    end)
+
+    --FUNKY FRIDAY
+elseif game.PlaceId == 6447798030 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lua Scriptz", "Synapse")
+
+    --SUPPORTED GAMES
+    local Supported = Window:NewTab("Supported Games")
+    local SupportedSection = Supported:NewSection("Supported Games")
+    SupportedSection:NewButton("Arsenal", "Arsenal is one of the supported games", function()
+        print("Arsenal")
+    end)
+    SupportedSection:NewButton("Dahood", "Dahood is one of the supported games", function()
+        print("Dahood")
+    end)
+    SupportedSection:NewButton("Prison Life", "Prison life is one of the supported games", function()
+        print("Prison Life")
+    end)
+    SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
+        print("Admin House")
+    end)
+
+    --UNIVERSAL
+    local Universal = Window:NewTab("Universal")
+    local UniversalSection = Universal:NewSection("Universal Scripts")
+    UniversalSection:NewButton("IY", "Loads infinite yield", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    UniversalSection:NewButton("Homewbrew", "Loads homebrew admin, Prefix is .", function()
+        _G.CustomUI = false
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+    end)
+
+    --ACTUAL SCRIPT
+    local Funky = Window:NewTab("Funky Friday")
+    local FunkySection = Funky:NewSection("Funky Friday")
+    FunkySection:NewButton("Wally Autoplay", "The most popular script rn", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+    end)
+end
