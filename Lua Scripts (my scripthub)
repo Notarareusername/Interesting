@@ -17,6 +17,12 @@ if game.PlaceId == 286090429 then
     SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
         print("Admin House")
     end)
+    SupportedSection:NewButton("Funky Friday", "Funky friday is one of the supported games", function()
+        print("Gettin Funky On A Friday Night")
+    end)
+    SupportedSection:NewButton("Bee Swarm Sim", "Bee swarm simulator is one of the supported games", function()
+        print("Buzz im a bee")
+    end)
 
     --UNIVERSAL
     local Universal = Window:NewTab("Universal")
@@ -57,6 +63,12 @@ elseif game.PlaceId == 2788229376 then
     end)
     SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
         print("Admin House")
+    end)
+    SupportedSection:NewButton("Funky Friday", "Funky friday is one of the supported games", function()
+        print("Gettin Funky On A Friday Night")
+    end)
+    SupportedSection:NewButton("Bee Swarm Sim", "Bee swarm simulator is one of the supported games", function()
+        print("Buzz im a bee")
     end)
 
     --UNIVERSAL
@@ -121,6 +133,12 @@ elseif game.PlaceId == 155615604 then
     SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
         print("Admin House")
     end)
+    SupportedSection:NewButton("Funky Friday", "Funky friday is one of the supported games", function()
+        print("Gettin Funky On A Friday Night")
+    end)
+    SupportedSection:NewButton("Bee Swarm Sim", "Bee swarm simulator is one of the supported games", function()
+        print("Buzz im a bee")
+    end)
 
     --UNIVERSAL
     local Universal = Window:NewTab("Universal")
@@ -165,6 +183,12 @@ elseif game.PlaceId == 112420803 then
     end)
     SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
         print("Admin House")
+    end)
+    SupportedSection:NewButton("Funky Friday", "Funky friday is one of the supported games", function()
+        print("Gettin Funky On A Friday Night")
+    end)
+    SupportedSection:NewButton("Bee Swarm Sim", "Bee swarm simulator is one of the supported games", function()
+        print("Buzz im a bee")
     end)
 
     --UNIVERSAL
@@ -213,6 +237,12 @@ elseif game.PlaceId == 6447798030 then
     SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
         print("Admin House")
     end)
+    SupportedSection:NewButton("Funky Friday", "Funky friday is one of the supported games", function()
+        print("Gettin Funky On A Friday Night")
+    end)
+    SupportedSection:NewButton("Bee Swarm Sim", "Bee swarm simulator is one of the supported games", function()
+        print("Buzz im a bee")
+    end)
 
     --UNIVERSAL
     local Universal = Window:NewTab("Universal")
@@ -230,5 +260,46 @@ elseif game.PlaceId == 6447798030 then
     local FunkySection = Funky:NewSection("Funky Friday")
     FunkySection:NewButton("Wally Autoplay", "The most popular script rn", function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua"))()
+    end)
+    FunkySection:NewButton("Lunatic Autoplay", "A good script", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyron14-max/Lunatic/main/init.lua"))()
+    end)
+
+    --BEE SWARM SIMULATOR
+elseif game.PlaceId == 1537690962 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Lua Scriptz", "Synapse")
+
+    --SUPPORTED GAMES
+    local Supported = Window:NewTab("Supported Games")
+    local SupportedSection = Supported:NewSection("Supported Games")
+    SupportedSection:NewButton("Arsenal", "Arsenal is one of the supported games", function()
+        print("Arsenal")
+    end)
+    SupportedSection:NewButton("Dahood", "Dahood is one of the supported games", function()
+        print("Dahood")
+    end)
+    SupportedSection:NewButton("Prison Life", "Prison life is one of the supported games", function()
+        print("Prison Life")
+    end)
+    SupportedSection:NewButton("Kohls Admin House", "Kohls admin house is one of the supported games", function()
+        print("Admin House")
+    end)
+    SupportedSection:NewButton("Funky Friday", "Funky friday is one of the supported games", function()
+        print("Gettin Funky On A Friday Night")
+    end)
+    SupportedSection:NewButton("Bee Swarm Sim", "Bee swarm simulator is one of the supported games", function()
+        print("Buzz im a bee")
+    end)
+
+    --UNIVERSAL
+    local Universal = Window:NewTab("Universal")
+    local UniversalSection = Universal:NewSection("Universal Scripts")
+    UniversalSection:NewButton("IY", "Loads infinite yield", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+    UniversalSection:NewButton("Homewbrew", "Loads homebrew admin, Prefix is .", function()
+        _G.CustomUI = false
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
     end)
 end
